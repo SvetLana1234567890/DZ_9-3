@@ -3,7 +3,7 @@
     padding: 0px;
 }
 body {
-    margin: 3%;
+    margin: 0px 3%;
 }
 ol {
     display: flex;
@@ -44,16 +44,19 @@ h1 {text-align: center;
     color: rgb(16, 16, 107);
     margin: auto;
     display: flex;
-    justify-content: space-around;
-    padding: 15px 15px;
+    justify-content: space-between;
+    padding: 10px;
+}
+.info ul li {
+    margin: 10px 8%;
 }
 .content ul {
     list-style-type: none;
     width: 90%;
     display: grid;
-    grid-template-columns: 30% 40% 30%;
+    grid-template-columns: 28% 40% 31%;
     margin: auto;
-
+    grid-column-gap: 10px;
 }
 .content ul li:first-child {
     grid-row-start: 1;
@@ -61,6 +64,7 @@ h1 {text-align: center;
 }
 .content img {
     width: 60%;
+    margin-left: 13%;
 }
 .content ul li:nth-child(8) {
     grid-row-start: 4;
@@ -73,4 +77,30 @@ h1 {text-align: center;
 }
 #file {
     display: none;
+}
+.content ul li {
+    margin-top: 20px;
+}
+input {
+    width: 90%;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border-color: rgb(228, 225, 225);
+}
+button {
+    width: 100%;
+    background-color: gray;
+    color: white;
+    margin: auto;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.file {
+    width: 50%;
+    background-color: gray;
+    color: white;
+    margin-left: 15%;
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 5px;
 }
