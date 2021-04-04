@@ -51,11 +51,26 @@ h1 {text-align: center;
     list-style-type: none;
     width: 90%;
     display: grid;
-    grid-template-columns: 10% 40% 20%;
+    grid-template-columns: 30% 40% 30%;
     margin: auto;
 
 }
 .content ul li:first-child {
     grid-row-start: 1;
     grid-row-end: 4;
+}
+.content img {
+    width: 60%;
+}
+.content ul li:nth-child(8) {
+    grid-row-start: 4;
+    grid-row-end: 8;
+}
+.content ul li:nth-child(10) {
+    grid-column-start: 3;
+    grid-row-start: 4;
+    grid-row-end: 7;
+}
+#file {
+    display: none;
 }
