@@ -1,8 +1,16 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin: 3%;
+}
 ol {
     display: flex;
 }
 a {
     color: white;
+    text-decoration: none;
 }
 a:hover {
     color: rgb(118, 161, 224);
@@ -23,4 +31,31 @@ ol li:nth-child(5) {
 }
 li img {
     width: 40px;
+}
+h1 {text-align: center; 
+    font-weight: 200;
+    margin: 20px;
+}
+.info ul {
+    list-style-type: none;
+    text-transform: uppercase;
+    width: 90%;
+    background-color: rgb(161, 218, 245);
+    color: rgb(16, 16, 107);
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 15px;
+}
+.content ul {
+    list-style-type: none;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 10% 40% 20%;
+    margin: auto;
+
+}
+.content ul li:first-child {
+    grid-row-start: 1;
+    grid-row-end: 4;
 }
