@@ -1,0 +1,26 @@
+ol {
+    display: flex;
+}
+a {
+    color: white;
+}
+a:hover {
+    color: rgb(118, 161, 224);
+    text-decoration: none;
+}
+ol li {
+    list-style-type: none;
+    margin: auto 15px auto 15px;
+}
+ol li:nth-child(5) {
+    margin-left: auto;
+}
+.menu {
+    background-color: rgb(35, 78, 143);
+    height: 60px;
+    padding-top: 10px;
+    width: 100%;
+}
+li img {
+    width: 40px;
+}
